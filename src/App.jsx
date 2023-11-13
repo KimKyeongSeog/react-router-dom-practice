@@ -4,6 +4,7 @@ import Main from "./pages/main";
 import A from "./pages/A";
 import B from "./pages/B";
 import C from "./pages/C";
+import User from "./pages/user";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
     <Route path="/a" element={<A />} />
     <Route path="/b" element={<B />} />
     <Route path="/c" element={<C />} />
+    <Route path="/user/:id" element={<User />} />
   </Routes>
 </BrowserRouter>
 
